@@ -1,44 +1,68 @@
 {
     "data": {
-        "nodes": {
-            "Physical_Body": [
-                {
-                    "label": "Gas_Turbine",
-                    "id": "0"
-                },
-                {
-                    "label": "Turbojet",
-                    "id": "1"
-                }
-            ],
-            "Attribute": [
-                {
-                    "label": "Tube",
-                    "id": "2"
-                },
-                {
-                    "label": "Open",
-                    "id": "3"
-                }
-            ],
-            "Activity": [
-                {
-                    "label": "Passthrough",
-                    "id": "5"
-                }
-            ],
-            "Descriptor": [
-                {
-                    "label": "Continuous",
-                    "id": "7"
-                }
-            ]
-        },
-        "links": {
-            "IS_A": ["0","1"],
-            "PROPERTY_OF": ["2", "3", "4"],
-            "AT_FRONT": ["5"],
-            "AT_REAR": ["6"]
-        }
+        "nodes": [
+            {
+                "type": "Physical_Body",
+                "instances": [
+                    {
+                        "label": "Gas_Turbine",
+                        "id": "0"
+                    },
+                    {
+                        "label": "Turbojet",
+                        "id": "1"
+                    }
+                ]
+            },
+            {
+                "type": "Attribute",
+                "instances": [
+                    {
+                        "label": "Tube",
+                        "id": "2"
+                    },
+                    {
+                        "label": "Open",
+                        "id": "3"
+                    }
+                ]
+            },
+            {
+                "type": "Activity",
+                "instances": [
+                    {
+                        "label": "Passthrough",
+                        "id": "5"
+                    }
+                ]
+            },
+            {
+                "type": "Descriptor",
+                "instances": [
+                    {
+                        "label": "Continuous",
+                        "id": "7"
+                    }
+                ]
+            }
+        ],
+        "links": [
+            {
+                "type": "IS_A",
+                "instances": ["0","1"]
+            },
+            {
+                "type": "PROPERTY_OF",
+                "instances": ["2", "3", "4"]
+            },
+            {
+                "type": "AT_FRONT",
+                "instances": ["5"]
+            },
+            {
+                "type": "AT_REAR",
+                "instances": ["6"]
+            }
+        ]
     }
 }

@@ -72,69 +72,69 @@
         ]
     },
     "validation": {
-            "9": [
+        "9": [
+            {
+                "question": "What are the advantages of a compressor?",
+                "answer": "It is much quieter and can be used at commercial airports without causing noise pollution.",
+                "node_id": "9",
+                "id": "v1"
+            }
+        ]
+    },
+    "validation_questions": [
+        {
+            "id": "q1",
+            "question": "Is the system generated response inaccurate?",
+            "options": [
                 {
-                    "question": "What are the advantages of a compressor?",
-                    "answer": "It is much quieter and can be used at commercial airports without causing noise pollution.",
-                    "node_id": "9",
-                    "id": "v1"
+                    "text": "Yes, it is inaccurate.",
+                    "key": "yes"
+                },
+                {
+                    "text": "Not sure.",
+                    "key": "not_sure"
+                },
+                {
+                    "text": "No, it is accurate.",
+                    "key": "no"
                 }
             ]
         },
-        "validation_questions": [
-            {
-                "id": "q1",
-                "question": "Is the system generated response inaccurate?",
-                "options": [
-                    {
-                        "text": "Yes, it is inaccurate.",
-                        "key": "yes"
-                    },
-                    {
-                        "text": "Not sure.",
-                        "key": "not_sure"
-                    },
-                    {
-                        "text": "No, it is accurate.",
-                        "key": "no"
-                    }
-                ]
-            },
-            {
-                "id": "q2",
-                "question": "Are there situtations where the answer is not correct, or would not apply?",
-                "options": [
-                    {
-                        "text": "Yes, there are.",
-                        "key": "yes"
-                    },
-                    {
-                        "text": "Not sure.",
-                        "key": "not_sure"
-                    },
-                    {
-                        "text": "No, it is always correct.",
-                        "key": "no"
-                    }
-                ]
-            },
-            {
-                "id": "q3",
-                "question": "Is the system generated response an incomplete answer that needs more details?",
-                "options": [
-                    {
-                        "text": "Yes, it is incomplete.",
-                        "key": "yes"
-                    },
-                    {
-                        "text": "Not sure.",
-                        "key": "not_sure"
-                    },
-                    {
-                        "text": "No, it is complete.",
-                        "key": "no"
-                    }
-                ]
-            }
-        ]
+        {
+            "id": "q2",
+            "question": "Are there situtations where the answer is not correct, or would not apply?",
+            "options": [
+                {
+                    "text": "Yes, there are.",
+                    "key": "yes"
+                },
+                {
+                    "text": "Not sure.",
+                    "key": "not_sure"
+                },
+                {
+                    "text": "No, it is always correct.",
+                    "key": "no"
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "question": "Is the system generated response an incomplete answer that needs more details?",
+            "options": [
+                {
+                    "text": "Yes, it is incomplete.",
+                    "key": "yes"
+                },
+                {
+                    "text": "Not sure.",
+                    "key": "not_sure"
+                },
+                {
+                    "text": "No, it is complete.",
+                    "key": "no"
+                }
+            ]
+        }
+    ]
 }

@@ -81,10 +81,17 @@
                 "status": "validated"
             },
             {
-                "question": "This is the next question?",
+                "question": "What are the advantages of a turbofan?",
                 "answer": "It is much quieter and can be used at commercial airports without causing noise pollution.",
                 "node_id": "9",
                 "id": "v2",
+                "status": "incomplete"
+            },
+            {
+                "question": "What kind of impeller do centrifugal flow compressors use?",
+                "answer": "Centrifugal flow compressors have a single or double-sided impeller and occassionally a two-stage, single-sided impeller is used.",
+                "node_id": "9",
+                "id": "v3",
                 "status": "incomplete"
             }
         ]
